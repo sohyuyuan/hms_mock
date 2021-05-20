@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      Fore more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    -->
+    <base href="/" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="HealthMetrics Employee App." />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="HealthMetrics" />
+    <link rel="apple-touch-icon" href="icons/ic_launcher_192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Font family -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+
+    <title>HealthMetrics</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <div>
+      <img
+        src="assets/assets/images/splash_top_left.png"
+        type="image/png"
+        style="
+          height: auto;
+          position: fixed;
+          width: 15%;
+          max-width: 80px;
+          left: 0;
+          top: 0;
+        "
+      />
+      <img
+        src="assets/assets/images/splash_bottom_right.png"
+        type="image/png"
+        style="
+          height: auto;
+          position: fixed;
+          width: 25%;
+          max-width: 100px;
+          right: 0;
+          bottom: 0;
+        "
+      />
+      <div
+        style="
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        "
+      >
+        <img
+          type="image/png"
+          src="assets/assets/images/hms_logo.png"
+          style="width: 100%; max-width: 640px"
+        />
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/google-libphonenumber@3.2.19/dist/libphonenumber.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmG2ScZMqgdw4X9900mcWZ8jQYjuqY6Gc"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCvgYfewccQfuHAB0SX9KU3rq4uXuUiTx0',
+        authDomain: 'healthmetrics-171709.firebaseapp.com',
+        databaseURL: 'https://healthmetrics-171709.firebaseio.com',
+        projectId: 'healthmetrics-171709',
+        storageBucket: 'healthmetrics-171709.appspot.com',
+        messagingSenderId: '1008506085812',
+        appId: '1:1008506085812:web:90aff33f230225aec7d2e1',
+      };
+      // Initialize Firebase
+
+      firebase.initializeApp(firebaseConfig);
+
+      // Initialize Analytics
+
+      firebase.analytics();
+    </script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+    <script
+      src="services/one_signal/one_signal_service.js"
+      type="application/javascript"
+    ></script>
+
+    <!-- This script installs pdf.min.js to render the PDF page as an image in the
+    application and load in syncfusion_flutter_pdfviewer widget -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+    <script type="text/javascript">
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        '//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js';
+    </script>
+
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>

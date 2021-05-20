@@ -1,0 +1,5 @@
+@import './google_maps/info_window.css';
+
+*:focus {
+  outline: 0 !important; /* To remove default render outline from any focused html element. */
+}

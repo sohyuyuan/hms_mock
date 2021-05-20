@@ -1,0 +1,6 @@
+.gm-style-iw-a {
+  cursor: pointer;
+  /* Because of the issue: https://github.com/flutter/flutter/issues/58828. 
+  Set font color to black manually. Kindly remove after issue been fixed. */
+  color: black;
+}
