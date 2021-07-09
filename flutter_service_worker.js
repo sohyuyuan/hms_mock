@@ -3,18 +3,18 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "af77ec62dabe157f31f0264438b37309",
-"index.html": "e79ec9f09b47c3cd334779400a4c15b0",
-"/": "e79ec9f09b47c3cd334779400a4c15b0",
-"main.dart.js": "acfebe0f02b99eec8f06ada0397166f0",
+  "version.json": "1426283867f203964b2c5d178d63f428",
+"index.html": "87adc483f31a1ed544201a535aa9350c",
+"/": "87adc483f31a1ed544201a535aa9350c",
+"main.dart.js": "0dc1f697975cd5d3ae2d759e9b381067",
 "styles/google_maps/info_window.css": "adfda8e9d4a995a46c5bf9a9b1fd492f",
 "styles/global.css": "fce95c7df1f9d5dafa67485eb6b64161",
 "favicon.png": "13acddac90b944fcea22626f7aabb4de",
 "icons/ic_launcher_192.png": "d1b938f8d3d55a92e73fa6075a92fb80",
 "icons/ic_launcher_512.png": "8b5c35ab5ff02fe712eba02bf789b795",
 "manifest.json": "24e4a8ba6fefa8505a73a84e6eb57a49",
-"assets/AssetManifest.json": "3d32297d60bc6cc1f8c880cda5ab404e",
-"assets/NOTICES": "91aef2ec977e5321fbd2454a10b55a96",
+"assets/AssetManifest.json": "50c518a4e67e9d8944ef13d3b5b9ea19",
+"assets/NOTICES": "9acf72be8f63b18dc603143a82c98873",
 "assets/FontManifest.json": "36432a9f78e769af9e9bd2ac42561e12",
 "assets/packages/fwfh_svg/test/images/logo.svg": "fdb46fc7657324f79bd97928651e8274",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -90,8 +90,8 @@ const RESOURCES = {
 "assets/assets/images/bank_logos/affin.ico": "c93e312c78fd25a0bccf0584d95cd470",
 "assets/assets/images/landing_top_left.png": "7139b6fce0aeae1e952b95bb64f426da",
 "assets/assets/lotties/dino_dance.json": "01094bdf859f1852a8693198b1c1a52d",
+"assets/assets/lotties/color_switching_loading.json": "ccb5bc02cb37bf0df0e7b47f89b3e69d",
 "assets/assets/html/bootstrap_base.html": "9af38c6723188708f0b7691aab324c09",
-"services/one_signal/one_signal_service.js": "30cc015ce72fd42ddc63b435e80b448b",
 "services/one_signal/OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "services/one_signal/OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726"
 };
