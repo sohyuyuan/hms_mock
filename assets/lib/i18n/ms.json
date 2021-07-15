@@ -277,8 +277,8 @@
   "AccountRegistration_T": "Pendaftaran Akaun",
   "Login": "Log Masuk",
   "BackToLogin": "Kembali ke halaman log masuk",
-  "ResetPasswordUsingEmailX": "Tetapkan semula kata laluan dengan e-mel {value}",
-  "ResetPasswordUsingMobileX": "Tetapkan semula kata laluan dengan telefon {value}",
+  "ResetPasswordUsingEmail": "Tetapkan semula kata laluan dengan e-mel",
+  "ResetPasswordUsingMobile": "Tetapkan semula kata laluan dengan telefon",
   "SetPassword": "Tetapkan kata laluan",
   "PasswordRequirement": "8 aksara atau lebih, dengan sekurang-kurangnya satu huruf besar, satu huruf kecil dan satu angka.",
   "UserNameRequirement": "Dalam 5 - 32 aksara, dan hanya mengandungi abjad rumi, angka, tanda sempang (-), noktah (.) atau garis bawah (_). Perlu bermula dengan abjad.",
@@ -376,7 +376,7 @@
   "AccountFoundInstruction": "Sila pilih saluran untuk menerima OTP kata laluan dan ketik 「Seterusnya」untuk meneruskan",
   "AreYouSureToQuitApp": "Adakah anda pasti keluar dari aplikasi?",
   "PromptExit": "Keluar?",
-  "VerifyIndentityInstruction": "Sila pilih saluran untuk menerima OTP dan ketik「Seterusnya」untuk meneruskan",
+  "VerifyIdentityInstruction": "Sila pilih saluran untuk menerima OTP dan ketik「Seterusnya」untuk meneruskan",
   "OTPVerification": "Pengesahan OTP",
   "OrganisationPolicy": "Dasar organisasi",
   "PanelListing": "Senarai panel",
@@ -707,5 +707,8 @@
   "More": null,
   "NewVersionAvailable": "Versi baru tersedia, sila kemas kini.",
   "TapToUpdate": "Ketik untuk kemas kini.",
-  "MedicalCard": null
+  "MedicalCard": null,
+  "NoEntitlement": "Tiada Hak Manfaat",
+  "CardHolderBenefits": "Manfaat pemegang kad",
+  "SMS": "SMS"
 }

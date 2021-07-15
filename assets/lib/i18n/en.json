@@ -277,8 +277,8 @@
   "AccountRegistration_T": "Account Registration",
   "Login": "Login",
   "BackToLogin": "Back to login",
-  "ResetPasswordUsingEmailX": "Reset password using email {value}",
-  "ResetPasswordUsingMobileX": "Reset password using mobile {value}",
+  "ResetPasswordUsingEmail": "Reset password using email",
+  "ResetPasswordUsingMobile": "Reset password using mobile",
   "SetPassword": "Set password",
   "PasswordRequirement": "Must be 8 characters or longer, with at least one uppercase letter, one lowercase letter, and one number.",
   "UserNameRequirement": "Must have 5 - 32 characters, and can only contain English alphabets, numbers, dashes (-), periods (.) and underscores (_). Must start with an alphabet.",
@@ -376,7 +376,7 @@
   "AccountFoundInstruction": "Please select the channel to receive the reset password OTP and tap on「Next Step」to proceed",
   "AreYouSureToQuitApp": "Are you sure to quit the app?",
   "PromptExit": "Exit?",
-  "VerifyIndentityInstruction": "Please select the channel to receive OTP and tap on「Next Step」to proceed",
+  "VerifyIdentityInstruction": "Please select the channel to receive OTP and tap on「Next Step」to proceed",
   "OTPVerification": "OTP Verification",
   "OrganisationPolicy": "Organisation policy",
   "PanelListing": "Panel listing",
@@ -707,5 +707,8 @@
   "More": "More",
   "NewVersionAvailable": "New version available, please update.",
   "TapToUpdate": "Tap to update.",
-  "MedicalCard": "Medical card"
+  "MedicalCard": "Medical card",
+  "NoEntitlement": "No entitlement",
+  "CardHolderBenefits": "Card holder's benefits",
+  "SMS": "SMS"
 }

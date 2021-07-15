@@ -277,8 +277,8 @@
   "AccountRegistration_T": "账户注册",
   "Login": "登录",
   "BackToLogin": "回到登录界面",
-  "ResetPasswordUsingEmailX": "使用此电邮重置密码：{value}",
-  "ResetPasswordUsingMobileX": "使用此手机重置密码：{value}",
+  "ResetPasswordUsingEmail": "使用此电邮重置密码",
+  "ResetPasswordUsingMobile": "使用此手机重置密码",
   "SetPassword": "设置密码",
   "PasswordRequirement": "请输入至少8位字符，并且包含一大写字母，一小写字母，以及一数字",
   "UserNameRequirement": "请输入5至32位的字符，并且只可包含英文字母，数字，横杠 (-)，句号 (.) 以及 下划线 (_)，且必须以字母开头。",
@@ -376,7 +376,7 @@
   "AccountFoundInstruction": "请选择一种恢复方式以接收作为重置密码所需的验证码并点击「下一步」继续",
   "AreYouSureToQuitApp": "确定要退出吗？",
   "PromptExit": "退出？",
-  "VerifyIndentityInstruction": "请选择一种方式以接收验证码并点击「下一步」继续",
+  "VerifyIdentityInstruction": "请选择一种方式以接收验证码并点击「下一步」继续",
   "OTPVerification": "验证「验证码」",
   "OrganisationPolicy": "组织政策",
   "PanelListing": "诊所列表",
@@ -707,5 +707,8 @@
   "More": "更多",
   "NewVersionAvailable": "有可用的新版本，请更新。",
   "TapToUpdate": "轻触以更新。",
-  "MedicalCard": "医疗卡"
+  "MedicalCard": "医疗卡",
+  "NoEntitlement": "没有福利额度",
+  "CardHolderBenefits": "持卡人福利",
+  "SMS": "短信"
 }
